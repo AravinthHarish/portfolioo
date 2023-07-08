@@ -1,0 +1,88 @@
+style.css
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+    background-color:darkgrey;
+  font-family:"Brush Script MT", cursive;;
+}
+
+header {
+  background-color:grey;
+  color:whitesmoke;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#nav{
+
+  background-color:dimgrey;
+}
+
+a.disable-link{
+
+  color:#00C2FF;
+  pointer-events: none;
+  cursor: default;
+
+}
+
+img{
+
+  height: 200px;
+  width: 200px;
+  border-radius: 30px 10px;
+  border-style:groove;
+
+}
+
+
